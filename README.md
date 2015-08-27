@@ -17,7 +17,11 @@ To run the .jar file:
 $ hadoop jar bc.jar BC arg0 arg1 arg2 arg3 arg4
 
 arg0 = HDFS input location
+
 arg1 = HDFS output location
+
 arg2 = number of runs (use 1, unless the program needs to be run multiple times over and over again)
+
 arg3 = number of vertices
+
 arg4 = number of random starts (usually set to 30)
