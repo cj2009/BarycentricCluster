@@ -5,12 +5,15 @@ This is my implementation of the Barycentric Clustering (BC) algorithm in MapRed
 This program was written and tested in Hadoop version 2.7.0.
 
 To compile:
+
 $ hadoop com.sun.tools.javac.Main BC.java
 
 This produces several .class files. Package them into a .jar file named bc.jar:
+
 $ jar cf bc.jar BC*.class
 
 To run the .jar file:
+
 $ hadoop jar bc.jar BC arg0 arg1 arg2 arg3 arg4
 
 arg0 = HDFS input location
